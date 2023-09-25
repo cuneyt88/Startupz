@@ -6,7 +6,6 @@ import '../style/FooterStyles.css'
 import twit from '../assets/twitter.svg'
 import linkedin from '../assets/Linkedin.svg'
 import insta from '../assets/instagram.svg'
-import Nav from 'react-bootstrap/Nav';
 
 
 
