@@ -1,0 +1,114 @@
+.hiringDiv{
+    justify-content: space-between;
+    background: #FBFAFA;
+    padding-top: 140px;
+    padding-bottom: 150px;
+}
+
+.hiringHead{
+    color: #3D4F5C;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 100% */
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+    font-family: circular;
+}
+
+.hiringText{
+    color: var(--Primary-Orange, #FB8958);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+    letter-spacing: -0.24px;
+    margin-bottom: 30px;
+    font-family: circular;
+}
+
+.seeOpen{
+    width: 243px;
+    height: 45px;
+    background: #46B8C8;
+    border: 1px solid var(--Complementary-Green, #46B8C8);
+    border-radius: 32.5px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 100% */
+    font-family: circular;
+    margin: auto;
+}
+
+.seeOpen:hover{
+    background: #FFF;
+    border: 1px solid var(--Complementary-Green, #46B8C8);
+    color: #46B8C8;
+}
+
+@media (max-width: 768px) {
+   
+    .hiringHead{
+        margin-top: 15px;
+        flex-direction: column;
+    }
+
+    .hiringText{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .hiringDiv {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .hiringDiv > div:first-child {
+        align-self: flex-start; /* snap only the first content to the left */
+    }
+
+    .hiringDiv > div:last-child {
+        align-self: flex-end; /* snap only the last content to the right */
+    }
+
+    .seeOpen{
+        margin: auto;
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 820px)and (max-width: 1279px) {
+    .hiringDiv {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .hiringDiv > div:first-child {
+        align-self: flex-start; /* snap only the first content to the left */
+    }
+
+    .hiringDiv > div:last-child {
+        align-self: flex-end; /* snap only the last content to the right */
+    }
+
+    .seeOpen{
+        margin: auto;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 281px) {  
+    .CloudMan{
+        width: 60%;
+    }
+
+    .BinocularsMan{
+        width: 60%;
+    }
+
+}

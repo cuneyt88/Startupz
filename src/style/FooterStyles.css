@@ -1,0 +1,129 @@
+.topDiv{
+    padding-left: 120px;
+    width: 100%;
+}
+
+.footLogo{
+    width: 178.876px;
+    height: 42.904px;
+    margin-bottom: 84px;
+    margin-top: 90px;
+}
+
+.reserveText{
+    margin-bottom: 123px;
+    color: #939393;
+    font-family: circular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.footerHead{
+    color: #3D4F5C;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 100% */
+    text-align: start;
+    margin-bottom: 20px;
+    margin-top: 104px;
+    font-family: circular;
+}
+
+.footerText{
+    color: var(--Complementary-Green, #46B8C8);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: start;
+    line-height: 35px;
+}
+
+.footerText ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+#tolq{
+    text-decoration: none;
+    color: var(--Complementary-Green, #46B8C8);
+}
+
+#legalSite{
+    text-decoration: none;
+    color: var(--Complementary-Green, #46B8C8);
+}
+
+#codekeeper{
+    text-decoration: none;
+    color: var(--Complementary-Green, #46B8C8);
+}
+
+#feedbackLabs{
+    text-decoration: none;
+    color: var(--Complementary-Green, #46B8C8);
+}
+
+#email{
+    text-align: start; 
+    margin-left: 0; 
+    display: block;
+    text-decoration: none; 
+}
+
+
+.address{
+    text-align: start;
+    font-family: circular;
+    color: #939393;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.social{
+    width: 23px;
+    height: 23px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.linkedin{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+
+    .topDiv {
+        padding-left: 15px;
+    }
+    .footerHead {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .footerText,
+    .address,
+    .email{
+        text-align: center;
+    }
+
+    .reserveText{
+        margin-bottom: 43px;  
+    }
+
+    .social {
+        margin-top: 10px;
+        margin: auto;
+    }
+
+    #comp{
+        margin-top: 90px;
+    }
+
+}

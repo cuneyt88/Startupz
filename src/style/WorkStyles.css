@@ -1,0 +1,258 @@
+.worksTitle{
+    margin-top: 140px;
+    margin-bottom: 55px;
+    font-family: circular;
+}
+
+.allCards{
+    width: 100%;
+}
+
+.card{
+    width: 588px;
+    height: 554px;
+    border-radius: 30px;
+    background: #FFF;
+    border: none;
+    box-shadow: 0px 8px 35px 0px rgba(187, 169, 142, 0.15);
+    margin: auto;
+}
+
+.tolq{
+    margin-top: 45px;
+    color: #A9BC87;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 93.75% */
+    letter-spacing: -0.32px;
+    font-family: circular;
+}
+
+.Feedback{
+    margin-top: 45px;
+    color: #8BB5C9;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 93.75% */
+    letter-spacing: -0.32px;
+    font-family: circular;
+}
+
+.Codekeeper{
+    margin-top: 45px;
+    color: #00A0B6;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 93.75% */
+    letter-spacing: -0.32px;
+    font-family: circular;
+}
+
+.LegalSite{
+    margin-top: 45px;
+    color: #8B60D3;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 93.75% */
+    letter-spacing: -0.32px;
+    font-family: circular;
+}
+
+.cardText{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #3D4F5C;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.16px;
+    font-family: circular;
+}
+
+.moreBut{
+    width: 107px;
+    height: 45px;
+    border-radius: 32.5px;
+    border: 1px solid var(--Complementary-Green, #46B8C8);
+    color: var(--Complementary-Green, #46B8C8);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 100% */
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: circular;
+}
+
+.moreBut:hover{
+    background: #46B8C8;
+    color: #FFF;
+    border: 1px solid var(--Complementary-Green, #46B8C8);
+}
+
+.startAllText{
+    margin-top: 180px;
+    margin-bottom: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+
+.startupsText{
+    color: var(--Primary-Orange, #FB8958);
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px; /* 112.5% */
+    letter-spacing: -0.4px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: circular;
+    display: flex;
+    align-items: center; 
+    text-align: center; 
+    padding: 10px; 
+}
+
+.startupsText img {
+    margin: 0 33px;
+}
+
+/* The hand image is only in one direction. used to invert the image like a mirror */
+.rightFing{
+    transform: scaleX(-1);
+}
+
+.Img{
+    width: 70%;
+    height: 50%;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+    .card {
+      width: 350px;
+      height: 350px;
+    }
+
+    .allCards{
+        width: 100%;
+        margin: auto;
+    }
+
+    .Img{
+        width: 50%;
+        height: 40%;
+        margin-bottom: 25px;
+    }
+    
+    .tolq{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .Feedback{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .Codekeeper{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .LegalSite{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .cardText{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: #3D4F5C;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 125% */
+        letter-spacing: -0.16px;
+    }
+
+    .moreBut{
+        width: 60px;
+        height: 30px;
+        border-radius: 32.5px;
+        border: 1px solid var(--Complementary-Green, #46B8C8);
+        color: var(--Complementary-Green, #46B8C8);
+        text-align: center;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px; /* 100% */
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .startAllText {
+        text-align: center; 
+      }
+      
+      .startupsFingText {
+        display: flex;
+        flex-direction: column; /* sort by column */
+        align-items: center;
+      }
+      
+      .startupsText {
+        text-align: center; /* center text */
+      }
+      
+      .leftFing {
+        order: -1; /* move left img up */
+      }
+      
+      .rightFing {
+        order: 1; /* move right img down */
+      }
+      
+}
+
+
+/* The screen size is generally for tablets. Here, the necessary settings are made to prevent the cards from overlapping and distorting the width of the page. */
+@media (min-width: 820px)and (max-width: 1279px) {
+    .card {
+        width: 460px;
+        height: 550px;
+    }
+
+    .startupsText{
+        font-size: 30px;
+    }
+
+    .startupsText img {
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 281px) {  
+    
+    .card {
+        width: 260px;
+        height: 420px;
+    }
+
+}
+

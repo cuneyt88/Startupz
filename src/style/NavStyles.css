@@ -1,0 +1,164 @@
+
+.nav{
+    background-color: white;
+    padding-left:120px ;
+}
+
+.insideNav{
+    margin-top: 36px;
+}
+
+.logo{
+    width: 199.486px;
+    height: 47.848px;
+}
+
+
+.links{
+    color: #3D4F5C;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: circular;
+}
+
+.startbut{
+    margin-right: 40px;
+}
+
+.workBut{
+    border-radius: 32.5px;
+    border: 1px solid var(--Complementary-Green, #46B8C8);
+    color: var(--Complementary-Green, #46B8C8);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-right: 120px;
+    margin-left: 42px;
+    font-family: circular;
+}
+
+.workBut:hover{
+    background-color: #46B8C8;
+    color: white;
+    border: 1px solid var(--Complementary-Green, #46B8C8);
+}
+
+.navbot{
+    padding-left: 120px;
+    justify-content: space-between;
+    margin-top: 145px;
+    width: 100%;
+}
+
+.headText{
+    color: #3D4F5C;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 85px; /* 100% */
+    letter-spacing: -1.7px;
+    text-align: start;
+    font-family: circular;
+}
+
+.secondText{
+    color: var(--Primary-Orange, #FB8958);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+    letter-spacing: -0.24px;
+    margin-top: 25px;
+    font-family: circular;
+    text-align: left;
+}
+
+.seeWork{
+    width: 157px;
+    height: 45px;
+    border-radius: 32.5px;
+    background: #46B8C8;
+    border: 1px solid var(--Complementary-Green, #46B8C8);
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 25px;
+    font-family: circular;
+    text-align: center;
+    display: block;
+    margin-left: 0;  
+}
+
+.seeWork:hover{
+    background-color: white;
+    color: #46B8C8;
+    border: 1px solid var(--Complementary-Green, #46B8C8);
+}
+
+.imageDiv{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.startImage{
+    max-width: 704.816px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    
+    .nav {
+        padding-left: 15px;
+    }
+
+    .navbot{
+        padding-left: 15px;
+    }
+
+    /* I removed the large image so that the image does not take up too much space and extend the page even more on small phone-like screen sizes. */
+    .startImage{
+        display: none;
+    }
+
+    .workBut{
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        margin-left: 42px;
+        width: 85px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 281px) {
+    .nav {
+        padding-left: 0;
+    }
+    
+    .headText{
+        color: #3D4F5C;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 85px; /* 100% */
+        letter-spacing: -1.7px;
+        text-align: start;
+        font-family: circular;
+    }
+
+    .workBut{
+        font-size: 12px;
+        margin-left: 5px;
+        display: flex;
+    }
+
+    .startbut{
+        margin-right: 5px;
+    }
+    
+
+}
